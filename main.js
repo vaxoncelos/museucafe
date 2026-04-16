@@ -105,6 +105,20 @@ nextBtn.addEventListener('click', () => {
 
 render()
 
+/* ── HERO NAV → MENU TAB ── */
+
+document.querySelectorAll('[data-menu]').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault()
+    const idx = parseInt(link.dataset.menu, 10)
+    if (idx >= 0 && idx < menuData.length) {
+      current = idx
+      render()
+    }
+    document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })
+  })
+})
+
 /* ── ABOUT PARALLAX ── */
 
 const aboutSection = document.querySelector('.about')

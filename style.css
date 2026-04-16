@@ -323,7 +323,6 @@ img {
   align-items: center;
   justify-content: center;
   background: var(--bg);
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .menu-inner {
@@ -706,7 +705,7 @@ img {
 
 .half-moon {
   position: absolute;
-  bottom: -40%;
+  bottom: -350px;
   left: 50%;
   transform: translateX(-50%);
   width: 700px;
