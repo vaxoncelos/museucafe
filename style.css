@@ -208,7 +208,7 @@ img {
 .about {
   position: relative;
   width: 100%;
-  min-height: 300vh;
+  min-height: 350vh;
   background: var(--bg);
   overflow: clip;
 }
@@ -281,6 +281,54 @@ img {
   box-shadow: none;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
   object-fit: contain;
+}
+
+.img-7 {
+  width: 200px;
+  height: 260px;
+  top: calc(50% - 720px);
+  left: calc(50% - 580px);
+  transform: translate(-50%, -50%);
+}
+
+.img-8 {
+  width: 160px;
+  height: 200px;
+  top: calc(50% - 560px);
+  left: calc(50% + 360px);
+  transform: translate(-50%, -50%);
+}
+
+.img-9 {
+  width: 220px;
+  height: 280px;
+  top: calc(50% + 140px);
+  left: calc(50% - 920px);
+  transform: translate(-50%, -50%);
+}
+
+.img-10 {
+  width: 180px;
+  height: 220px;
+  top: calc(50% + 380px);
+  left: calc(50% + 780px);
+  transform: translate(-50%, -50%);
+}
+
+.img-11 {
+  width: 240px;
+  height: 300px;
+  top: calc(50% + 820px);
+  left: calc(50% - 200px);
+  transform: translate(-50%, -50%);
+}
+
+.img-12 {
+  width: 140px;
+  height: 170px;
+  top: calc(50% + 1050px);
+  left: calc(50% + 540px);
+  transform: translate(-50%, -50%);
 }
 
 .about-text {
